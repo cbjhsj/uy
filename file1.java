@@ -13,6 +13,7 @@ public class Main {
         double m = struct(a[0][0],a[0][1],a[1][0],a[1][1]);
         double m1 = struct(a[1][0],a[1][1],a[2][0],a[2][1]);
         double m2 = struct(a[2][0],a[2][1],a[0][0],a[0][1]);
+
         double m3 = m + m2 + m1;//得到周长
         System.out.printf("%.2f\n",m3);//保留小数点后两位
     }
