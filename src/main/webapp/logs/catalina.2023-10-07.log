@@ -1,0 +1,41 @@
+07-Oct-2023 11:19:50.142 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+07-Oct-2023 11:19:50.146 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+07-Oct-2023 11:19:50.146 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+07-Oct-2023 11:19:50.146 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_351\jre
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_351-b10
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\JetBrains\apache-tomcat-8.5.20\untitled\src\main\webapp
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\JetBrains\apache-tomcat-8.5.20
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\JetBrains\apache-tomcat-8.5.20
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\JetBrains\apache-tomcat-8.5.20\untitled\src\main\webapp
+07-Oct-2023 11:19:50.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\JetBrains\apache-tomcat-8.5.20\untitled\src\main\webapp\temp
+07-Oct-2023 11:19:50.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\JetBrains\apache-tomcat-8.5.20\untitled\src\main\webapp\conf\logging.properties
+07-Oct-2023 11:19:50.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Oct-2023 11:19:50.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\lib\idea_rt.jar=16256:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin
+07-Oct-2023 11:19:50.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Oct-2023 11:19:50.148 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_351\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-10.0.2\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86156\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;;.]
+07-Oct-2023 11:19:50.355 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Oct-2023 11:19:50.880 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Oct-2023 11:19:50.883 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Oct-2023 11:19:50.886 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Oct-2023 11:19:50.887 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1184 ms
+07-Oct-2023 11:19:50.976 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Oct-2023 11:19:50.976 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+07-Oct-2023 11:19:50.991 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Program Files\JetBrains\apache-tomcat-8.5.20\untitled\src\main\webapp\conf\Catalina\localhost\untitied.xml]
+07-Oct-2023 11:19:52.641 警告 [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mydb Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "30" for "maxActive" property, which is being ignored.
+07-Oct-2023 11:19:52.641 警告 [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mydb Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+07-Oct-2023 11:19:52.750 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Oct-2023 11:19:52.817 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Program Files\JetBrains\apache-tomcat-8.5.20\untitled\src\main\webapp\conf\Catalina\localhost\untitied.xml] has finished in [1,825] ms
+07-Oct-2023 11:19:52.819 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Oct-2023 11:19:52.826 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Oct-2023 11:19:52.827 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1940 ms
+07-Oct-2023 11:20:01.814 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Oct-2023 11:20:02.282 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Oct-2023 11:20:02.797 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Oct-2023 11:20:02.826 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Oct-2023 11:20:02.829 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Oct-2023 11:20:02.833 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Oct-2023 11:20:02.834 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
